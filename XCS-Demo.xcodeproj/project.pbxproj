@@ -53,6 +53,8 @@
 		9B13CB371EE8885600B7DD69 /* Feature+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feature+Enum.swift"; sourceTree = "<group>"; };
 		9B13CB3A1EE8885600B7DD69 /* Feature+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feature+Tests.swift"; sourceTree = "<group>"; };
 		9B13CB3C1EE8885700B7DD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADDDE691F1E315600711BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADDDE6A1F1E315600711BD4 /* XCS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCS_DemoUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		9B13CAF91EE8884500B7DD69 = {
 			isa = PBXGroup;
 			children = (
+				FADDDE681F1E315600711BD4 /* XCS-DemoUITests */,
 				9B13CB041EE8884500B7DD69 /* XCS-Demo */,
 				9B13CB191EE8884600B7DD69 /* XCS-DemoTests */,
 				9B13CB2D1EE8885600B7DD69 /* BDD */,
@@ -171,6 +174,15 @@
 				9B13CB3A1EE8885600B7DD69 /* Feature+Tests.swift */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		FADDDE681F1E315600711BD4 /* XCS-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADDDE691F1E315600711BD4 /* Info.plist */,
+				FADDDE6A1F1E315600711BD4 /* XCS_DemoUITests.swift */,
+			);
+			path = "XCS-DemoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,6 +597,7 @@
 				9B13CB211EE8884600B7DD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B13CB221EE8884600B7DD69 /* Build configuration list for PBXNativeTarget "XCS-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +606,7 @@
 				9B13CB241EE8884600B7DD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B13CB3F1EE8885700B7DD69 /* Build configuration list for PBXNativeTarget "BDD" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +615,7 @@
 				9B13CB411EE8885700B7DD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
